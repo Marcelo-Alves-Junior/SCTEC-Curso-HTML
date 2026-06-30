@@ -1,0 +1,22 @@
+* {
+    font-family: "Google Sans", sans-serif;
+    color: solid black;
+} /* altera o estilo para todos os elementos */
+
+table,
+th,
+td, 
+p1 {
+    font-family: "IBM Plex Serif", sans-serif;
+    border: 1px solid black;
+} /* Altera o estilo das tabelas */
+
+.azul {
+    color: blue;
+} /* Altera o estilo de elementos com a classe "azul" */
+
+#Sobre {
+    opacity: 0.6;
+} /* Altera o estilo do elemento com o ID "Sobre" */
+
+/* font-family: "Stack Sans Notch", sans-serif;*/

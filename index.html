@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcelo</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght@17..18,400..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Stack+Sans+Notch:wght@200..700&display=swap"
 
 <body>
     <header>
-        <h1>Marcelo</h1>
+        <h1>Marcelo Alves Junior</h1>
         <nav>
             <ul>
                 <li><a href="#Sobre">Sobre mim</a></li>
@@ -41,22 +42,17 @@
         <h2>Projetos</h2>
         <article>
             <h3>Portfolio</h3>
-            <p>Este é o primeiro site em html feito durante do curso SCTEC - Desenvolvimento de Software</p>
+            <p>Este site em html está sendo feito durante o curso SCTEC - Desenvolvimento de Software</p>
         </article>
     </section>
 
     <section id="habilidades">
-        <h2>Habilidades & Tecnologia :</h2>
-        <style>
-            table,th,td {
-                border: 1px solid black;
-            }
-        </style>
+        <h2>Habilidades & Tecnologia :</h2>  
 
-        <table style="width:50%">
+        <table style="width:80%">
 
             <thead>
-                <tr>
+                <tr class="azul">
                     <th>Tecnologia</th>
                     <th>Nível</th>
                     <th>Descrição</th>
@@ -93,11 +89,10 @@
         </article>
     </section>
 
-    <footer>
-        <p>Direitos reservados a Marcelo</p>
+    <footer>        
         <section id="Contato">
             <h2>Contato</h2>
-            <p>Tem um projeto em mente? Entre em contato</p>
+            <p1 class="azul">Tem um projeto em mente? Entre em contato ...</p1><br><br>
 
             <form action="">
                 <label for="name">Nome :</label>
@@ -116,19 +111,21 @@
                 <br>
 
                 <label for="mensagem">Mensagem :</label><br>
-                <textarea name="" id="" cols="30" rows="10" required></textarea>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required style="color: blue;"></textarea><br>
                 <input type="checkbox" id="inscricao" name="inscricao">
                 <label for="inscricao">Deseja receber novidades ? Fique por dentro</label><br>
 
-                <input type="submit" value="Enviar Mensagem">
+                <input type="submit" value="Enviar Mensagem"><br>
 
             </form>
+            <br>
 
             <address>
-                email: <a href="mailto:marcelo.cont@live.com">marcelo.cont@live.com</a>
+                email: <a href="mailto:marcelo.cont@live.com">marcelo.cont@live.com</a><br>
                 Telefone: <a href="tel:+55047991409528">(47) 99140-9528</a>
             </address>
         </section>
+        <p>Direitos reservados a Marcelo</p>
     </footer>
 
 
